@@ -72,7 +72,7 @@ subroutine flux_DPENOAO_11_P(f_j, numericalFlux)
 	implicit none
 	real(Kind=8), intent(in) :: f_j(-kp:kp)
 	real(Kind=8), intent(out) :: numericalFlux
-	integer :: lp,rp
+	integer :: Lp,Rp
 
 !-------------------------------------------------------
 	! Init delta
